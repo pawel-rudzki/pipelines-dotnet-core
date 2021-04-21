@@ -19,6 +19,6 @@ steps:
 - task: AzureWebApp@1
   inputs:
     appType: webApp
-    azureSubscription: 'Free Trial'
+    azureSubscription: 'pawel-rudzki'
     appName: 'pipelines-dotnet-core'
     package: $(System.DefaultWorkingDirectory)/**/*.zip
